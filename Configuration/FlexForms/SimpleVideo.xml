@@ -1,0 +1,43 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>Video Configuration</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <settings.preload>
+            <TCEforms>
+              <label>Preload Options</label>
+              <config>
+                <type>select</type>
+                <renderType>selectSingle</renderType>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">Auto</numIndex>
+                    <numIndex index="1">auto</numIndex>
+                  </numIndex>
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Metadata</numIndex>
+                    <numIndex index="1">metadata</numIndex>
+                  </numIndex>
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">None</numIndex>
+                    <numIndex index="1">none</numIndex>
+                  </numIndex>
+                </items>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </settings.preload>
+        </el>
+      </ROOT>
+    </sDEF>
+  </sheets>
+</T3DataStructure>

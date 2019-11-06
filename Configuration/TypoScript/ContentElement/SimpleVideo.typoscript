@@ -5,6 +5,14 @@ tt_content.em_simple_video {
     partialRootPaths.100 = EXT:em_simple_video/Resources/Private/Partials/
     layoutRootPaths.100 = EXT:em_simple_video/Resources/Private/Layouts/
 
+    variables {
+        preload = TEXT
+        preload {
+            data = flexform:pi_flexform:settings.preload
+            ifEmpty = auto
+        }
+    }
+
     dataProcessing {
         100 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
         100 {

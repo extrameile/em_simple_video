@@ -18,9 +18,15 @@
         // load the fields from the regular text element
         $GLOBALS['TCA']['tt_content']['types']['em_simple_video'] = $GLOBALS['TCA']['tt_content']['types']['text'];
 
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+            '',
+            'FILE:EXT:em_simple_video/Configuration/FlexForms/SimpleVideo.xml',
+            'em_simple_video'
+        );
+
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
             'tt_content',
-            'assets,image',
+            'assets,pi_flexform,image',
             'em_simple_video',
             'before:bodytext'
         );
