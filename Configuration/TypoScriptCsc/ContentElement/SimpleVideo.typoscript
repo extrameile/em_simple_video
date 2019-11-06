@@ -1,0 +1,33 @@
+tt_content.em_simple_video = COA
+tt_content.em_simple_video {
+    10 =< lib.stdheader
+    20 = FLUIDTEMPLATE
+    20 {
+        templateName = SimpleVideo
+        templateRootPaths.100 = EXT:em_simple_video/Resources/Private/Templates/
+        # load "empty" layout for csc rendering
+        layoutRootPaths.100 = EXT:em_simple_video/Resources/Private/Layouts/
+
+        variables {
+            preload = TEXT
+            preload {
+                data = flexform:pi_flexform:settings.preload
+                ifEmpty = auto
+            }
+        }
+
+        dataProcessing {
+            100 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            100 {
+                references.fieldName = assets
+                as = video
+            }
+            110 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            110 {
+                references.fieldName = image
+                as = poster
+            }
+        }
+    }
+
+}

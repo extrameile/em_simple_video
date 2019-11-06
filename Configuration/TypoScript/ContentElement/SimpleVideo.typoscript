@@ -2,8 +2,6 @@ tt_content.em_simple_video =< lib.contentElement
 tt_content.em_simple_video {
     templateName = SimpleVideo
     templateRootPaths.100 = EXT:em_simple_video/Resources/Private/Templates/
-    partialRootPaths.100 = EXT:em_simple_video/Resources/Private/Partials/
-    layoutRootPaths.100 = EXT:em_simple_video/Resources/Private/Layouts/
 
     variables {
         preload = TEXT
