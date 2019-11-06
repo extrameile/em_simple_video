@@ -7,8 +7,6 @@ call_user_func(function () {
     <INCLUDE_TYPOSCRIPT: source="FILE:EXT:em_simple_video/Configuration/TSconfig/Page/TCEFORM.tsconfig">
     ');
 
-
-
     $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
     $icons = [
         'content-em_simple_video' => 'EXT:em_simple_video/Resources/Public/Icons/film-solid.svg',

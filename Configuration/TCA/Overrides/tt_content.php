@@ -75,6 +75,6 @@
             ],
         ]);
 
-        $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['em_simple_video'] = $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['textmedia'];
+        $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['em_simple_video'] = 'content-em_simple_video';
     }
 );
