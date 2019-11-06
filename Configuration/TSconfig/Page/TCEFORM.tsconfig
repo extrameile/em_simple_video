@@ -1,0 +1,5 @@
+TCEFORM.tt_content {
+    image.types.em_simple_video.label = LLL:EXT:em_simple_video/Resources/Private/Language/locallang_be.xlf:em_simple_video.image
+    assets.types.em_simple_video.label = LLL:EXT:em_simple_video/Resources/Private/Language/locallang_be.xlf:em_simple_video.video
+    bodytext.types.em_simple_video.label = LLL:EXT:em_simple_video/Resources/Private/Language/locallang_be.xlf:em_simple_video.bodytext
+}

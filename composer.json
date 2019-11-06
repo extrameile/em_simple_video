@@ -1,0 +1,29 @@
+{
+    "name": "extrameile/em-simple-video",
+    "license": "GPL-2.0-or-later",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andreas Kießling",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Extrameile\\EmSimpleVideo\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Extrameile\\EmSimpleVideo\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "extrameile/em-simple-video": "self.version",
+        "typo3-ter/em-simple-video": "self.version"
+    }
+}

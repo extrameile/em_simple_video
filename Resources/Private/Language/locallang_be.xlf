@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-11-06T20:10:16Z"
+        product-name="em_simple_video">
+    <header/>
+    <body>
+      <trans-unit id="em_simple_video.wizard.title" xml:space="preserve">
+          <source>Simple Video</source>
+      </trans-unit>
+      <trans-unit id="em_simple_video.wizard.description" xml:space="preserve">
+          <source>MP4 video with an optional poster image</source>
+      </trans-unit>
+      <trans-unit id="em_simple_video.image" xml:space="preserve">
+          <source>Poster image (optional, only the first one is used)</source>
+      </trans-unit>
+      <trans-unit id="em_simple_video.video" xml:space="preserve">
+          <source>Video (only one is rendered)</source>
+      </trans-unit>
+      <trans-unit id="em_simple_video.bodytext" xml:space="preserve">
+          <source>Description</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

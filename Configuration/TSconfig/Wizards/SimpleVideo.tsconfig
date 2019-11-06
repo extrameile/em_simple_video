@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        em_simple_video {
+            iconIdentifier = content-em_simple_video
+            title = LLL:EXT:em_simple_video/Resources/Private/Language/locallang_be.xlf:em_simple_video.wizard.title
+            description = LLL:EXT:em_simple_video/Resources/Private/Language/locallang_be.xlf:em_simple_video.wizard.description
+            tt_content_defValues {
+                CType = em_simple_video
+            }
+        }
+    }
+    show := addToList(em_simple_video)
+}
