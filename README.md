@@ -1,3 +1,6 @@
+# What does it do
+Since the textmedia content element does not have the option to assign a poster image to a video, this new simple content element was created.
+
 Player icon is provided by FontAwesome, see licence below
 
 
