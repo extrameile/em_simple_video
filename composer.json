@@ -13,16 +13,6 @@
         "typo3/cms-core": "^8.7 || ^9.5",
         "typo3/cms-extbase": "^8.7 || ^9.5"
     },
-    "autoload": {
-        "psr-4": {
-            "Extrameile\\EmSimpleVideo\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Extrameile\\EmSimpleVideo\\Tests\\": "Tests"
-        }
-    },
     "replace": {
         "extrameile/em-simple-video": "self.version",
         "typo3-ter/em-simple-video": "self.version"
